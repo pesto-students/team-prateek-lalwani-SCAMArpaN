@@ -1,0 +1,13 @@
+form div {
+  margin: 10px 10px;
+  width: 100%;
+}
+
+label {
+  width: 150px;
+  float: left;
+}
+
+input#blink {
+  width: 50px;
+}

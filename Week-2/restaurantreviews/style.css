@@ -1,0 +1,15 @@
+img {
+  width: 500px;
+}
+
+form div {
+  margin: 10px 0px;
+}
+
+.checked {
+  color: orange;
+}
+
+.res_name {
+  font-size: 2rem;
+}

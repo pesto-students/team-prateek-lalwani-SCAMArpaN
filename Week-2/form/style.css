@@ -1,0 +1,9 @@
+form div {
+  margin: 10px 10px;
+  width: 100%;
+}
+
+label {
+  width: 100px;
+  float: left;
+}

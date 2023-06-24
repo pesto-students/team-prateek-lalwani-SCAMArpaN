@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Join a social network</h1>
+    <form action="$" method="post" enctype="multipart/form-data">
+      <div>
+        <label for="FullName">Full name:</label>
+        <input type="text" name="FullName" id="name" required />
+      </div>
+      <div>
+        <label for="email">Email address:</label>
+        <input type="email" name="fullname" id="email" required />
+      </div>
+      <div>
+        <label for="about">About you:</label>
+        <textarea name="about" id="about" cols="50" rows="3"></textarea>
+      </div>
+      <div>
+        <label for="picture">Photo:</label>
+        <input type="file" name="Photo" accept="image/*" id="picture" />
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
